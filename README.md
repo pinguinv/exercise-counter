@@ -1,27 +1,21 @@
-# ExerciseCounter
+<center><h1> ExerciseCounter </h1></center>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.2.
+## Drugi mały szybki frontendowy projekt na zawodowe w technikum
 
-## Development server
+Teoretycznie zamysł jest taki, że co powtórzenie będzie się klikało któryś przycisk, ale w praktyce komu by się chciało wstawać np. między brzuszkami, żeby to kliknąć? Nie wiem, więc ten projekt nie bardzo ma sens, ale ważne, że ładnie wygląda.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Użyte technologie i narzędzia:
 
-## Code scaffolding
+- Angular
+- Tailwindcss
+- Postcss
+- Prettier
+- prettier-plugin-tailwindcss
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Komendy
 
-## Build
+Standardowo jak to w Angularze:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- `ng serve`, żeby odpalić serwer na `http://localhost:4200/`
+- `ng build`, żeby zbudować projekt w folderze `/dist`
+- `ng test` do odpalania testów jednostkowych (których w tym projekcie nie ma xd)
